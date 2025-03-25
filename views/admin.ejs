@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Green Club Complaints</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-900 text-white">
+    <div class="container mx-auto p-6">
+        <h1 class="text-3xl font-bold mb-6 text-green-400">Green Club - Complaints</h1>
+        <div class="overflow-x-auto">
+            <table class="w-full text-left border border-zinc-700">
+                <thead class="bg-zinc-800">
+                    <tr>
+                        <th class="p-3 border border-zinc-700">Email</th>
+                        <th class="p-3 border border-zinc-700">Image</th>
+                        <th class="p-3 border border-zinc-700">Statement</th>
+                        <th class="p-3 border border-zinc-700">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Dummy Data -->
+                    <tr class="bg-zinc-800 hover:bg-zinc-700">
+                        <td class="p-3 border border-zinc-700">john@example.com</td>
+                        <td class="p-3 border border-zinc-700">
+                            <img src="https://via.placeholder.com/50" alt="Complaint Image" class="w-10 h-10 rounded">
+                        </td>
+                        <td class="p-3 border border-zinc-700">There is too much litter in the park.</td>
+                        <td class="p-3 border border-zinc-700">
+                            <button class="px-3 py-1 bg-red-600 text-white rounded hover:bg-red-700">Delete</button>
+                        </td>
+                    </tr>
+                    <tr class="bg-zinc-800 hover:bg-zinc-700">
+                        <td class="p-3 border border-zinc-700">sarah@example.com</td>
+                        <td class="p-3 border border-zinc-700">
+                            <img src="https://via.placeholder.com/50" alt="Complaint Image" class="w-10 h-10 rounded">
+                        </td>
+                        <td class="p-3 border border-zinc-700">Water leakage near the community garden.</td>
+                        <td class="p-3 border border-zinc-700">
+                            <button class="px-3 py-1 bg-red-600 text-white rounded hover:bg-red-700">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
